@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="font/GARA.TTF" rel="stylesheet">
+		<link href="styles.css" type="text/css" rel="stylesheet">
+		<title>I am Arvid</title>
+	</head>
+		<body onload="startTime()">
+				
+			<header></header>
+			<nav>
+				<ul>
+					<li><a id="active" class="border" href="index.html">Home</a></li>
+					<li><a class="border" href="undersidor/hobbys.html">Hobbys</a></li>
+					<li><a class="border" href="undersidor/bildgalleri.html">Bildgalleri</a></li>
+					<li><a class="border" href="undersidor/framtidsvisioner.html">Framtidsvisioner</a></li>
+					<li id="txt"></li>
+					
+					<li><a href="https://www.facebook.com/Arvid.Tapper"><img id="imgLink1" src="img/Facebook.png"></a></li>
+					
+					<li><a href="https://github.com/GoodGuyTobi"><img id="imgLink2" src="img/Github.png"></a></li>
+					
+					<li><a href="https://twitter.com/TapperArviid"><img id="imgLink3" src="img/Twitter.png"> </a></li>
+					
+				</ul>
+			</nav>
+			
+			<iframe class="morning" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/185054099&amp;color=%23ff5500&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
+			
+			<div class="container">
+				<main>					
+					<img class="FrontImg" src="img/IamArvid.png">
+					<h1>I Am Arvid</h1>
+					
+					<p id="intro"><strong>Hej. Mitt namn är Arvid. Denna sida är gjord för att du som läsare ska få en inblick i mitt liv. Strax kommer du att få läsa en grundläggande text från födsel till planer för framtiden. Sedan kan du välja att läsa lite noggrannare om mina hobbys, ett bildgalleri och mina framtidsvisioner.</strong></p>
+					
+					
+					<p>Första dagen i mitt liv ute i det ”fria” började den 28 September 2000 på Mora BB. Fröjd och frid var det då inte då jag hade kolik. Pappa drabbades värst då enda sättet att få tyst på mig var att gå en promenad med mig i selen, även i snöstorm, och det gick inte inomhus för inte ens jag är så lättlurad.</p>
+					
+					<p>Vad gjorde då jag på min fritid? Jo, under denna tid hade vi ett hus och gård i Malung och på baksidan fanns en skog. Jag roade mig själv genom att springa runt i skogen och leka krigare, det kunde vara massa olika slagskämpar med svärd, pirat, viking, samuraj men framför allt riddare. Vi brukade åka till Leksand och Gotlands medeltidsmarknad och det var höjdpunkten för mig då. Min dröm var att bli en riddare.</p>
+					
+					<p>Tiden gick och när jag var sju fick pappa ett jobberbjudande som präst i Orsa så vi flyttade dit till en lägenhet som låg centralt. Skolan var, enligt mig, Sveriges sämsta skola och jag trivdes inte alls där. Men jag skaffade en väldigt bra kompis som tur nog bodde väldigt nära och vi hade delade intressen så tillsammans brukade vi leka riddare i källaren eller rita, givetvis riddare.</p>
+					
+					<p>Under denna tid började jag också med en annan grej som blivit en stor del av mitt liv, sång. Jag började spela piano och gick på körlektioner. Här kommer spelandet in, när jag inte kunde vara med min kompis så började jag roama runt på datorn och det var då jag hittade mitt första online spel jag någonsin spelat, Adventure Quest Worlds.</p>
+					
+					<p>Efter något år flyttade vi ytterligare en gång, inom Orsa denna gång och vi flyttande in i ett ordentligt hus. Skolan fortsatte och pluggandet gick bra men jag passade fortfarande inte in och jag gled isär med min kompis. Vad gjorde jag nu då? Jag började på scouterna, fick en ny vän och vi umgicks hela tiden, spelade zombie spel, var ute och hittade på allt möjligt och tittade zombiefilmer.</p>
+					
+					<p>Min dröm om att bli riddare hade försvunnit och förverkligats, nu hade jag andra saker inom mina visioner! Jag skulle bli berömd sångare, eller ja, en skogsarbetare. Min låtsasfarfar såg jag upp till väldigt mycket och han hade alla olika möjliga maskiner som jag fick testa köra och då var den roligaste var då skogsmaskinen.</p>
+					
+					<p>Mamma och pappa skilde sig, jag flyttade med mamma, fortfarande i Orsa och sedan började jag högstadiet och det blev bättre tider, jag började umgås med kompisar och det var även under denna tid som jag hittade de två spelet jag spenderat mest tid på, League of Legends och Counter Strike. Jag hade svårt att bestämma mig för vad jag ville studera vidare som efter högstadiet, det lutade mot att jag skulle bli kock men till slut när det var dags att välja visste jag det. Jag skulle lära mig att programmera, spel specifikt</p>
+					
+					<p>Studierna gick bra och jag kom in på Nordens Tekniker Institut utan några som helst problem, nu kommer visserligen vem som helst in då vi har en hel del IQ –befriade elever på vår skola.</p>
+					
+					<p>Jag flyttade till Falun tillsammans med två rumskompisar som jag än idag tar hand om och jag började studera. NTI gick bra i sådär ett år, jag hade några av de bästa betygen i klassen och det såg ljust ut. Sedan efter sommarlovet hände	 något, Academedia bestämde sig för att slå ihop NTI tillsammans med två andra skolor som nu går under namnet Drottning Blanka och skolan blev faktiskt ännu bättre.</p>
+					
+					<p>-2017-11-06</p>
+					
+					<a href="undersidor/hobbys.html"><img id="hoblink" src="img/HobbiesTrans.png"></a>
+					
+					<a href="undersidor/bildgalleri.html"><img id="gallink" src="img/galleryTrans.png"></a>
+					
+					<a href="undersidor/framtidsvisioner.html"><img id="futlink" src="img/TardisTrans.png"></a>
+					
+					<img id="futhov" src="img/TardisTrans.png">
+					
+					<img id="galhov" src="img/galleryTrans.png">
+					
+					<img id="imghob" src="img/Hobbies.png">
+					
+					<img id="imggal" src="img/gallery.png">
+					
+					<img id="imgfut" src="img/Tardis.png">
+						
+					<a href="http://www.staggeringbeauty.com/">
+						<img id="imgLink4" src="img/Hidden.png">
+					</a>
+					
+				</main>
+			</div>
+			
+			<footer>
+				<div class="kontaktinfo"><p><strong>Kontaktuppgifter:</strong>
+				<br><strong>Namn: </strong>Arvid Tapper
+					<br><strong>Nummer: </strong>+4670 320 74 88</p>
+				</div>
+				
+				<div class="sociallinks"><p><strong>Här kan du nå mig:</strong>
+				<br><a href="https://www.facebook.com/Arvid.Tapper" target="_blank">Facebook</a>
+				<br><a href="https://twitter.com/TapperArviid" target="_blank">Twitter</a>
+				<br><a href="https://github.com/GoodGuyTobi" target="_blank">Github</a></p>
+				</div>
+			</footer> 
+			
+			<script src="clock.js"></script>
+		</body>
+</html>
