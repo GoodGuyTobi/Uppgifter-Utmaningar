@@ -1,0 +1,484 @@
+/* STANDARD ÄR MOBILANPASSAD FÖR ATT EFFEKTIVISERA */
+/* GLOBALT */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	color: #333;
+	background-color: #fff;
+}
+
+h1 {
+	font-size: 60px;
+	color: #fff;
+}
+
+h2 {
+	font-size: 35px;
+	margin-top: 3%;
+}
+
+h3 {
+	font-size: 35px;
+	margin-top: 3%;
+	color: #FFF;
+}
+
+p {
+	line-height: 140%;
+	letter-spacing: 0.7px;
+	margin-top: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-weight: 300;
+	text-align: left;
+}
+
+/* HEADER */
+header {
+	height: 100vh;
+	background-position: center;
+	background-image: url(../img/hero.jpg);
+	background-repeat: no-repeat;
+}
+
+.headerTxt {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	margin-top: 10%;
+}
+
+/* BOKA KNAPP SOM LEDER TILL FORMS */
+.bokaKnapp {
+	transform: translate(-50%, -50%);
+	margin-left: 50%;
+	margin-top: 95%;
+    background-color: #0984e3;
+    color: #FFF;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+/* VARJE "SESSION" ÄR 100 VH OCH ÅTERKOMMER ISTÄLLET FÖR EN JÄTTELÅNG */
+.session {
+	height: 100vh;
+}
+/* LINJE FÖR VISUELL EFFEKT */
+.line {
+	border-bottom: 5px solid;
+	border-radius: 100px;
+	border-color: #0984e3;
+	width: 60%;
+	margin-left: 50%;
+	margin-top: 2%;
+	transform: translate(-50%,-50%);
+}
+/* KODEN FÖR TEXT PÅ INFODELEN */
+.infoTxt {
+	position: absolute;
+	text-align: center;
+	margin-top: 10%;
+	width: 100%
+}
+/*KODEN FÖR TEXT TILL AKTIVITETERNA */
+.activitiesText {
+	line-height: 140%;
+	letter-spacing: 0.7px;
+	margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-weight: 300;
+	text-align:left;
+}
+/* DE SESSIONER SOM SKULLE HA BAKGRUNDSFÄRG */
+.activitiesColor {
+	height: 100vh;
+	background-color: #f7f7f7;
+}
+/* BILD STYLING */
+img {
+	width: 400px;
+	transform: translate(-50%,0%);
+	margin-left: 50%;
+}
+/* BORDER TILL FORMS */
+.border {
+	border-radius: 2%;
+	border: 5px solid;
+	height: 90vh;
+	width: 90%;
+	transform: translate(-50%,);
+	border-color: #0984e3;
+	background-color: #f7f7f7;
+}
+/* LINJEN UNDER RUBRIKEN OCH FÄRGAT OMRÅDE TILL FORMS */
+.borderline {
+	margin-top: 2%;
+	border-bottom: 5px solid;
+	border-color: #0984e3;
+	width: 100%;
+}
+/* KODEN TILL ALLA FORMS DÄR MAN SKRIVER TEXT */
+input[type=text], select {
+	padding: 5px;
+	margin-left: 0%;
+	width: 75%;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+/* KODEN TILL FORMS DÄR MAN SKRIVER E-POST */
+input[type=email], select {
+	padding: 5px;
+	margin-left: 0%;
+	width: 75%;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+/* KODEN TILL FORMS DÄR MAN VÄLJER DATUM */
+input[type=date], select {
+	padding: 5px;
+	width: 75%;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+/* KODEN TILL FORMS BOKA KNAPPEN */
+input[type=submit] {
+    width: 50%;
+    background-color: #0984e3;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* KOD SOM GER VISUELL EFFEKT NÄR MAN HOVRAR ÖVER FORMS BOKA KNAPP */
+input[type=submit]:hover {
+    background-color: #065C9E;
+}
+/* KOD FÖR FORMS DROPDOWN LISTA */
+.dropListText {
+	margin: 10%;
+	font-size: 88%;
+	font-weight: normal;
+}
+/* EN EGEN SESSION SÅ JAG KAN GÖRA "DISPLAY:NONE" SENARE FÖR JUST DETTA OMRÅDE */
+.bokningar {
+	height: 100vh;
+}
+/* FÖR ATT FYLLA UT I FORMS SÅ DET LÅD VART DET SKULLE */
+.col-25 {
+	width:25%;
+	position: absolute;
+}
+
+.col-75 {
+	width: 75%;
+}
+/* TABLE KOD */
+table {
+	width: 100%;
+	text-align: left;
+	padding-left: 7%;
+}
+/* KOD FÖR ATT INTE HA FET TEXT */
+label {
+	font-weight: normal;
+}
+/* KOD FÖR ATT FÖRMINSKA KNAPPEN */
+select {
+	width: 80%;
+}
+/* KOD FÖR FOOTER SÅ ATT DET FÖLJDE KRAVSPEC */
+footer {
+	height: 25vh;
+	background-color: #0984e3;
+	border: 5px solid;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	border-bottom: 0px;
+}
+
+.footText {
+	padding-top: 10px;
+	text-align: center;
+	line-height: 140%;
+	letter-spacing: 0.7px;
+	font-weight: 300;
+	color: #fff;
+}
+/* DÖLJA MIN DESKTOP-FORM */
+.desktopForm {
+	display:none;
+}
+/* KOD FÖR ATT FORMS SKA FÖLJA KRAVSPEC */
+.formsHeaderColor {
+	background-color: #0984e3;
+	margin-top: -3%;
+	margin-bottom: -3%;
+	color: #fff;
+}
+/* KODEN SOM KÖRS OM SKÄRMEN ÄR STÖRRE ÄN 480PX (INTE MOBIL) */
+@media screen and (min-width: 481px){
+	/* DESKTOP HEADER */
+	.headerTxt {
+		top: 15%;
+		left: 50%;
+		width: 500px;
+		transform: translate(-50%,-50%);
+		border: 5px solid;
+		border-radius: 10px;
+		background-color: rgba(9, 132, 227, 0.6);
+	}
+	/* GÖMMA MOBILKNAPPEN FÖR DESKTOP */
+	.bokaKnapp {
+		display: none;
+	}
+	/* KOD FÖR ATT ANPASSA FÖR DESKTOP */
+	.line {
+		border-bottom: 5px solid;
+		border-radius: 100px;
+		border-color: #0984e3;
+		width: 45%;
+		margin-left: 50%;
+		transform: translate(-50%,-50%);
+}
+	
+	.infoTxt {
+		transform: translate(-50%, 0%);
+		position: absolute;
+		text-align: center;
+		margin-top: 5%;
+		margin-left: 50%;
+		width: 40%
+}
+	
+	p {
+		text-align: center;
+	}
+	
+	.session {
+		height: 50vh;
+	}
+	
+	.actLeft {
+		width:25%;
+		margin-left: 5%;
+		margin-top: 4%;
+	}
+	
+	.actRight {
+		position: absolute;
+		width:25%;
+		left:70%;
+		margin-top: 4%;
+	}
+	
+	.poolTextRight {
+		width:60%;
+		position: absolute;
+		right: 1%;
+		bottom: -113vh;
+		
+		line-height: 140%;
+		letter-spacing: 0.7px;
+		margin-top: 5%;
+		margin-left: 10%;
+		margin-right: 10%;
+		font-weight: 300;
+		text-align:left;
+	}
+	
+	.activitiesText {
+	}
+	
+	.activitiesColor {
+	height: 50vh;
+	background-color: #f7f7f7;
+}
+	/* TILLAGD SESSION FÖR ATT FÅ OLIKA HÖJDER TILL DESKTOP */
+	.ssession {
+		height: 70vh;
+	}
+	/* MER DESKTOP ANPASSNING */
+	.roomsText {
+		width:50%;
+		position: absolute;
+		right: 30%;
+		bottom: -163vh;
+		
+		line-height: 140%;
+		letter-spacing: 0.7px;
+		margin-top: 5%;
+		margin-left: 10%;
+		margin-right: 10%;
+		font-weight: 300;
+		text-align:left;
+	}
+	
+	img {
+		width: 400px;
+		transform: translate(-50%,0%);
+		margin-left: 50%;
+		border-radius: 30px;
+}
+	
+	.dinerText {
+		width:50%;
+		position: absolute;
+		right: 1%;
+		bottom: -220vh;
+		
+		line-height: 140%;
+		letter-spacing: 0.7px;
+		margin-top: 5%;
+		margin-left: 10%;
+		margin-right: 10%;
+		font-weight: 300;
+		text-align:left;
+	}
+	
+	.spaText {
+		width:50%;
+		position: absolute;
+		right: 30%;
+		bottom: -278vh;
+		
+		line-height: 140%;
+		letter-spacing: 0.7px;
+		margin-top: 5%;
+		margin-left: 10%;
+		margin-right: 10%;
+		font-weight: 300;
+		text-align:left;
+	}
+	
+	.terraceText {
+		width:50%;
+		position: absolute;
+		right: 1%;
+		bottom: -328vh;
+		
+		line-height: 140%;
+		letter-spacing: 0.7px;
+		margin-top: 5%;
+		margin-left: 10%;
+		margin-right: 10%;
+		font-weight: 300;
+		text-align:left;
+	}
+	
+	footer {
+		margin-top: 50vh;
+	}
+	
+	.col-25 {
+		width: 25%;
+	}
+	
+	.col-75 {
+		width: 25%;
+	}
+	
+	input[type=text], select {
+	padding: 5px;
+	margin-left: 0%;
+	width: 90%;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=email], select {
+	padding: 5px;
+	margin-left: 0%;
+	width: 90%;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=date], select {
+	padding: 5px;
+	margin-left: 0%;
+	width: 90%;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #0984e3;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #065C9E;
+}
+	
+	.dropListText {
+		margin: 0;
+		font-size: 100%;
+}
+	/* GÖMMA UNDAN MOBIL FORMS */
+	.bokningar{
+		display: none;
+	}
+	/* FORTSÄTTNING PÅ DESKTOP ANPASSNING */
+	.desktopForm {
+		display: inline;
+	}
+	
+	.dFormBorder {
+		width: 60%;
+		height: 60vh;
+		border: 5px solid;
+		border-radius: 5px;
+		margin-bottom: -40vh;
+		border-color: #0984e3;
+	}
+	/* FÖR ATT KUNNA FYLLA UT MIN TABELL SÅ DET SÅG VISUELLT BÄTTRE UT */
+	.filler {
+		width: 50px;
+	}
+	/* DESKTOPANPASSNING */
+	.bokaNuKnapp {
+		width:45%;
+	}
+	
+	.dBokaKnapp {
+		transform: translate(-50%, -50%);
+		margin-left: 50%;
+		margin-top: 35%;
+		background-color: #0984e3;
+		color: #FFF;
+		padding: 15px 32px;
+		text-align: center;
+		display: inline-block;
+		font-size: 16px;
+		cursor: pointer;
+	}
+	
+}

@@ -1,0 +1,265 @@
+<!--Code by: Arvid Tapper (GoodGuyTobi), Te16, Drottning Blanka.-->
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+			<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        	<link rel="stylesheet" type="text/css" href="css/styles.css">
+        <title>Pesac Resort</title>
+    </head>
+	
+    <body>
+		<header>
+			<div class="headerTxt"><h1>PESAC RESORT</h1>
+				<h3>VÄLKOMMEN TILL PARADISET</h3></div>
+			<a href="#Boka" class="bokaKnapp">BOKA NU</a>
+			
+			<a href="#dBoka" class="dBokaKnapp">BOKA NU</a>
+			
+		</header>
+		
+		<div class="ssession"><div class="session">
+			<div class="infoTxt">
+				<h2>Pesac Resort</h2>
+				<div class="line"></div>
+				<p>Här på det nyetablerade hotellet Pesac Resort kan du
+släppa all stress och bara slappna av. <br><br>Vi kan garantera att du
+med hjälp av flera olika spa-avdelningar, tränings- och yogapass,
+pooler, varma stränder och mycket mer kommer känna dig som en
+ny människa</p>
+			</div>
+		</div></div>
+		
+		
+		<div class="session">
+			<div class="actLeft"><img src="img/hotel-pool.jpg" alt="HotelPool"></div>
+		
+			<div class="poolTextRight">
+				<center><h2>Pesac Poolside</h2></center>
+			<div class="activitiesText">
+			Lägg dig ner i solstolen eller bada i en av våra
+pooler. Vi har många pooler för avslappning, motionssim, lek
+och vi har även äventyrsbad som är väldigt populära hos de
+yngre. Vill du hellre lägga dig ner på stranden? Inga problem!
+Vi har underbara stränder bara en trappa ner från våran
+			poolside. </div>
+		</div></div>
+		
+		<div class="activitiesColor">
+			<div class="actRight"><img src="img/hotel-room.jpg" alt="hotelRooms"></div>
+			
+			<div class="roomsText"><center><h2>Pesac Rooms</h2></center>
+			<div class="activitiesText">
+			På Pesac Resort kan vi skräddarsy ditt rum efter
+dina behov. Nygifta? Familj med många barn? Resa med
+företaget? Inga problem! Pesac Rooms möbleras helt efter
+dina krav.</div>
+		</div></div>
+		
+		<div class="session">
+		<div class="actLeft"><img src="img/hotel-diner.jpg" alt="HotelDiner"></div> 
+			
+			<div class="dinerText"><center><h2>Pesac Diners</h2></center>
+		<div class="activitiesText">
+			Pröva på mat från runtom hela världen! Vi erbjuder
+allt från vanlig svensk husmanskost, italienska pastarätter,
+grekiska rätter till orientalisk mat. Vi har femstjärniga kockar
+från världen runt.</div>
+		</div></div>
+		
+		<div class="activitiesColor">
+		<div class="actRight"><img src="img/hotel-spa.jpg" alt="HotelSpa"></div>
+		
+			<div class="spaText"><center><h2>Pesac Spa &amp; Relax</h2></center>
+		<div class="activitiesText">Trötta axlar och spända muskler? Kom till våra
+spa- och relax-avdelningar. Här kan du slappna av med hjälp
+av gyttjebad, yoga, naprapater och massageterapeuter som
+kan garantera att du hamnar på moln 7.</div>
+		</div></div>
+		
+		<div class="session">
+		<div class="actLeft"><img src="img/hotel-terrace.jpg" alt="HotelTerrace"></div> 
+			
+			<div class="terraceText"><center><h2>Pesac Terraces</h2></center>
+		<div class="activitiesText">
+			Behöver du paus från solen eller bara vill sitta
+i en lugn miljö och läsa en bok? Sätt dig och slappna av vid
+våra terrasser. Vid våra terrasser har du även tillgång till bar
+och fik.</div>
+		</div></div>
+		
+			
+			<div class="bokningar">
+			<center><div class="border"><div class="formsHeaderColor"><h2>Boka</h2></div><div class="borderline" id="Boka"></div>
+				<form action="#">
+					
+					<br>
+					
+					<div class="col-25"><label for="datFrom">Från</label></div>
+					
+    	<div class="col-75"><input type="date" id="from" name="dateFrom" required></div>
+    
+					<div class="col-25"><label for="dateTo">Till</label></div>
+					
+    <div class="col-75"><input type="date" id="to" name="dateTo" required></div>
+					<br>
+					
+						
+					
+					<table>
+					<tr>
+						<th><label for="visitors">
+							<div class="dropListText">Antal Besökare</div></label></th>
+						
+						<th><select id="visitors" name="visitors">
+      	<option value="1">1</option>
+      	<option value="2">2</option>
+      	<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+    </select></th>
+						
+						<th><label for="rooms"><div class="dropListText"><div class="formText">Antal Rum</div></div></label></th>
+						
+						<th><select id="rooms" name="rooms">
+		<option value="1">1</option>
+		<option value="2">2</option>
+      	<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+    </select></th>
+						
+						</tr>
+					</table>
+					<br>
+					<table>
+					<tr>
+						<th><label for="fname"> Förnamn</label></th>
+						<th><input type="text" id="fname" name="firstname" placeholder="Förnamn..." required></th>
+						</tr>
+						
+					<tr>
+						<th><label for="lname">Efternamn</label></th>
+						<th><input type="text" id="lname" name="lastname" placeholder="Efternamn..." required></th>
+						</tr>
+						
+					<tr>
+						<th><label for="number">Telefonnr</label></th>
+						<th><input type="text" id="number" name="number" placeholder="Telefonnummer..." required></th>
+						</tr>
+						
+					<tr>
+						<th><label for="email">E-post</label></th>
+						<th><input type="email" id="email" name="email" placeholder="E-postadress..." required></th>
+						</tr>
+					</table>
+  
+					<br><br>
+					
+		<input type="submit" value="Boka">
+  </form>
+				
+				</div></center>
+		</div>
+		
+		<div class="desktopForm"><center>
+			<div class="dFormBorder"><div class="formsHeaderColor"><h2>Boka</h2></div>
+			<div class="borderline" id="dBoka"></div>
+				<br>
+				<form action="#">
+				<table>
+				<tr>
+					<th><label for="datFrom">Från</label></th>
+					
+					<th><input type="date" id="from" name="dateFrom" required></th>
+					
+    				<th><label for="dateTo">Till</label></th>
+					
+					<th><input type="date" id="to" name="dateTo" required></th>
+						</tr>
+				</table>
+				
+				<br>
+				
+				<table>
+				<tr>
+					<th><label for="fname"> Förnamn</label></th>
+						<th><input type="text" id="fname" name="firstname" placeholder="Förnamn..." required></th>
+					
+					<th><div class="filler"></div></th>
+					
+					<th><label for="visitors">
+							<div class="dropListText">Antal Besökare</div></label></th>
+						
+						<th><select id="visitors" name="visitors">
+      	<option value="1">1</option>
+      	<option value="2">2</option>
+      	<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+    </select></th>
+					<th><div class="filler"></div></th>
+					
+					</tr>
+					<tr>
+					
+						<th>
+						<label for="lname">Efternamn</label></th>
+						<th><input type="text" id="lname" name="lastname" placeholder="Efternamn..." required></th>
+						
+						<th><div class="filler"></div></th>
+						
+						<th><label for="rooms"><div class="dropListText"><div class="formText">Antal Rum</div></div></label></th>
+						
+						<th><select id="rooms" name="rooms">
+		<option value="1">1</option>
+		<option value="2">2</option>
+      	<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+							</select></th>
+					</tr>
+					
+					<tr>
+					<th><label for="number">Telefonnr</label></th>
+						<th><input type="text" id="number" name="number" placeholder="Telefonnummer..." required></th></tr>
+						
+					<tr>
+						<th><label for="email">E-post</label></th>
+						<th><input type="email" id="email" name="email" placeholder="E-postadress..." required></th>
+					</tr>
+				</table>
+				
+				<br><br>
+				
+				<div class="bokaNuKnapp"><input type="submit" value="Boka"></div>
+				
+				</form>
+			</div>
+		</center></div>
+		
+		<footer><div class="footText">Kontakta oss: <br>support@pesacresort.com<br><br>Telefonnummer:<br>123-123456</div></footer>
+		
+    </body>
+</html>
